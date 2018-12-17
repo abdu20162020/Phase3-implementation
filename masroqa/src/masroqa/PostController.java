@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -35,7 +35,7 @@ public class PostController {
      * @param location 
      * @param CTid
      */
-    public void checkPost(string description, int userID, void image, string location, int CTid) {
+    public void checkPost(String description, int userID,  String location, int CTid) {
         // TODO implement here
     }
 

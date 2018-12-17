@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -30,22 +30,21 @@ public class Post {
     /**
      * 
      */
-    public string location;
+    public String location;
 
     /**
      * 
      */
-    public string description;
+    public String description;
 
     /**
      * 
      */
-    public void image;
-
+  
     /**
      * 
      */
-    public void categoryID;
+    public int categoryID;
 
 
 

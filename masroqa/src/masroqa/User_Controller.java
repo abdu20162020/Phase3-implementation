@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -20,7 +20,6 @@ public class User_Controller {
     /**
      * 
      */
-    private Admin admin;
 
 
 
@@ -30,7 +29,7 @@ public class User_Controller {
      * @param email 
      * @param password
      */
-    public void checkLogin(string email, string password) {
+    public void checkLogin(String email, String password) {
         // TODO implement here
     }
 
@@ -41,7 +40,7 @@ public class User_Controller {
      * @param type 
      * @param gender
      */
-    public void checkRegesteration(string name, string email, string password, string type, string gender) {
+    public void checkRegesteration(String name, String email, String password, String type, String gender) {
         // TODO implement here
     }
 
