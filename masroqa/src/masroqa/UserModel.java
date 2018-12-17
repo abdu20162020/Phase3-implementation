@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -39,7 +39,7 @@ public class UserModel {
      * @param email 
      * @param password
      */
-    public void reteriveUser(string email, string password) {
+    public void reteriveUser(String email, String password) {
         // TODO implement here
     }
 

@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -15,17 +15,17 @@ public class User {
     /**
      * 
      */
-    private string Name;
+    private String Name;
 
     /**
      * 
      */
-    private string Email;
+    private String Email;
 
     /**
      * 
      */
-    private string Password;
+    private String Password;
 
     /**
      * 
@@ -35,17 +35,17 @@ public class User {
     /**
      * 
      */
-    private string Phone;
+    private String Phone;
 
     /**
      * 
      */
-    private string Type;
+    private String Type;
 
     /**
      * 
      */
-    private string Gender;
+    private String Gender;
 
 
 
@@ -57,57 +57,49 @@ public class User {
     /**
      * @param name
      */
-    public void setName(string name) {
+    public void setName(String name) {
         // TODO implement here
     }
 
     /**
      * @param email
      */
-    public void setEmail(string email) {
+    public void setEmail(String email) {
         // TODO implement here
     }
 
     /**
      * @param password
      */
-    public void setPassword(string password) {
+    public void setPassword(String password) {
         // TODO implement here
     }
 
     /**
      * @param type
      */
-    public void setType(string type) {
+    public void setType(String type) {
         // TODO implement here
     }
 
     /**
      * @param gender
      */
-    public void setGender(string gender) {
+    public void setGender(String gender) {
         // TODO implement here
     }
 
     /**
      * @param phone
      */
-    public void setPhone(string phone) {
+    public void setPhone(String phone) {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public string getName() {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @return
-     */
-    public string getEmail() {
+    public String getName() {
         // TODO implement here
         return null;
     }
@@ -115,7 +107,7 @@ public class User {
     /**
      * @return
      */
-    public string getPassword() {
+    public String getEmail() {
         // TODO implement here
         return null;
     }
@@ -123,7 +115,7 @@ public class User {
     /**
      * @return
      */
-    public string getType() {
+    public String getPassword() {
         // TODO implement here
         return null;
     }
@@ -131,7 +123,7 @@ public class User {
     /**
      * @return
      */
-    public string getGender() {
+    public String getType() {
         // TODO implement here
         return null;
     }
@@ -139,7 +131,15 @@ public class User {
     /**
      * @return
      */
-    public string getPhone() {
+    public String getGender() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public String getPhone() {
         // TODO implement here
         return null;
     }

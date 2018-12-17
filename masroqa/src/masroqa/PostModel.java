@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -59,7 +59,7 @@ public class PostModel {
      * @param postID 
      * @param answer
      */
-    public void insertAnswer(inr postID, Answer answer) {
+    public void insertAnswer(int postID, Answer answer) {
         // TODO implement here
     }
 

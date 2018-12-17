@@ -1,4 +1,4 @@
-
+package masroqa;
 import java.util.*;
 
 /**
@@ -15,17 +15,18 @@ public class Answer {
     /**
      * 
      */
-    public string spac_location;
+    public String spac_location;
 
     /**
      * 
      */
-    public string additional-info;
+    public String additional_info;
+
 
     /**
      * 
      */
-    public void image;
+    public void image(){};
 
     /**
      * 
@@ -40,27 +41,27 @@ public class Answer {
     /**
      * 
      */
-    public string color;
+    public String color;
 
     /**
      * 
      */
-    public string model;
+    public String model;
 
     /**
      * 
      */
-    public string goldCaliber;
+    public String goldCaliber;
 
     /**
      * 
      */
-    public string gram;
+    public String gram;
 
     /**
      * 
      */
-    public string type;
+    public String type;
 
     /**
      * 
@@ -70,7 +71,7 @@ public class Answer {
     /**
      * 
      */
-    public string user_name;
+    public String user_name;
 
     /**
      * 
