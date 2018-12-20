@@ -15,7 +15,7 @@ public class Post {
     /**
      * 
      */
-    public Set<Answer> answer;
+    public Vector<Answer> answer=new Vector<Answer>();
 
     /**
      * 

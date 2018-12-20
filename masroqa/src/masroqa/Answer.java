@@ -1,8 +1,9 @@
 package masroqa;
+
 import java.util.*;
 
 /**
- * 
+ *
  */
 public class Answer {
 
@@ -13,12 +14,12 @@ public class Answer {
     }
 
     /**
-     * 
+     *
      */
     public String spac_location;
 
     /**
-     * 
+     *
      */
     public String additional_info;
 
@@ -26,58 +27,56 @@ public class Answer {
     /**
      * 
      */
-    public void image(){};
+    public String documentNum;
 
     /**
-     * 
+     *
      */
-    public int documentNum;
+    public String serialNo;
 
     /**
-     * 
-     */
-    public int serialNo;
-
-    /**
-     * 
+     *
      */
     public String color;
 
     /**
-     * 
+     *
      */
     public String model;
 
     /**
-     * 
+     *
      */
     public String goldCaliber;
 
     /**
-     * 
+     *
      */
     public String gram;
 
     /**
-     * 
+     *
      */
-    public String type;
+    public int type;
 
     /**
-     * 
+     *
      */
     public String answerType;
 
     /**
-     * 
+     *
      */
     public String user_name;
 
     /**
-     * 
+     *
      */
-    public int PhoneNum;
+    public String PhoneNum;
 
-
+    /**
+     *
+     */
+    public String Description;
 
 }

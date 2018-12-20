@@ -15,7 +15,7 @@ public class User_Controller {
     /**
      * 
      */
-    private User user;
+    private User user=new User();
 
     /**
      * 
@@ -29,8 +29,11 @@ public class User_Controller {
      * @param email 
      * @param password
      */
-    public void checkLogin(String email, String password) {
+    public User checkLogin(String email, String password,UserModel usres) {
         // TODO implement here
+        User u=new User();
+        u=usres.reteriveUser(email, password);
+        return u;
     }
 
     /**
@@ -40,8 +43,17 @@ public class User_Controller {
      * @param type 
      * @param gender
      */
-    public void checkRegesteration(String name, String email, String password, String type, String gender) {
+    public  void checkRegesteration(String name, String email, String password, String type, String gender,int user_id,UserModel users) {
         // TODO implement here
+        user.setName(name);
+        user.setEmail(email);
+        user.setGender(gender);
+        user.setPassword(password);
+        user.setPhone(type);
+        user.setType(type);
+        user.setUserid(user_id);
+        users.insertUser(user);
+        
     }
 
 }
