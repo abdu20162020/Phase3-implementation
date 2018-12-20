@@ -9,7 +9,7 @@ public class User {
     /**
      * Default constructor
      */
-    public User() {
+    public User(){
     }
 
     /**
@@ -46,33 +46,26 @@ public class User {
      * 
      */
     private String Gender;
-
-
-
-
-
-
-
-
     /**
      * @param name
      */
     public void setName(String name) {
         // TODO implement here
+        this.Name=name;
     }
-
     /**
      * @param email
      */
     public void setEmail(String email) {
         // TODO implement here
+        this.Email=email;
     }
-
     /**
      * @param password
      */
     public void setPassword(String password) {
         // TODO implement here
+        this.Password=password;
     }
 
     /**
@@ -80,6 +73,11 @@ public class User {
      */
     public void setType(String type) {
         // TODO implement here
+        this.Type=type;
+    }
+    public void setUserid(int userid) {
+        // TODO implement here
+        this.User_id=userid;
     }
 
     /**
@@ -87,6 +85,7 @@ public class User {
      */
     public void setGender(String gender) {
         // TODO implement here
+        this.Gender=gender;
     }
 
     /**
@@ -94,6 +93,7 @@ public class User {
      */
     public void setPhone(String phone) {
         // TODO implement here
+        this.Phone=phone;
     }
 
     /**
@@ -101,7 +101,7 @@ public class User {
      */
     public String getName() {
         // TODO implement here
-        return null;
+        return this.Name;
     }
 
     /**
@@ -109,7 +109,7 @@ public class User {
      */
     public String getEmail() {
         // TODO implement here
-        return null;
+        return this.Email;
     }
 
     /**
@@ -117,7 +117,7 @@ public class User {
      */
     public String getPassword() {
         // TODO implement here
-        return null;
+        return this.Password;
     }
 
     /**
@@ -125,7 +125,7 @@ public class User {
      */
     public String getType() {
         // TODO implement here
-        return null;
+        return this.Type;
     }
 
     /**
@@ -133,7 +133,7 @@ public class User {
      */
     public String getGender() {
         // TODO implement here
-        return null;
+        return this.Gender;
     }
 
     /**
@@ -141,7 +141,15 @@ public class User {
      */
     public String getPhone() {
         // TODO implement here
-        return null;
+        return this.Phone;
     }
+        /**
+     * @return
+     */
+    public int getUserId() {
+        // TODO implement here
+        return this.User_id;
+    }
+
 
 }
